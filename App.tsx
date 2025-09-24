@@ -55,7 +55,7 @@ export default function App() {
         type: "image/jpeg",                 // mime type
       } as any);
 
-      const response = await fetch("https://mydiet-backend-production.up.railway.app/analyze-food", {
+      const response = await fetch("https://mydiet-backend.vercel.app/analyze-food", {
         method: "POST",
         headers: {
           "Content-Type": "multipart/form-data",
